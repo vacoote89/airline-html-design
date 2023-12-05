@@ -1,0 +1,74 @@
+footer h3 {
+  padding-bottom: 15px;
+  border-bottom: #000 solid 1px;
+  font-size: 1.286rem;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#search, #find, #citiesSearch, #flightSearch {
+  text-align: center;
+  background: #08338c;
+  border-color: #08338c;
+}
+
+.bz-nav, .statusPills .nav-link.active {
+  background: #a18b48;
+  border-color: #a18b48;
+}
+
+.bz-nav a {
+  color: #f7f5fb;
+}
+
+.bz-nav .nav-item:hover a {
+  color: #f7f5fb;
+  background-color: #08338c;
+}
+
+.bz-nav .nav-link.active {
+  color: #08338c;
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #08338c;
+}
+
+.filterCard .card-header {
+  background-color: #fff !important;
+}
+
+.filterCard a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.accordion-header {
+  background-color: #ffffff !important;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+.resultTabs .nav-tabs {
+  background: #08338c;
+  border-color: #08338c;
+}
+
+.resultTabs .nav-link.active {
+  background-color: #a18b48;
+  color: #ffffff;
+  border-color: #a18b48;
+  text-align: center;
+}
+
+.resultTabs .nav-tabs a {
+  color: #fff;
+  text-align: center;
+}
+
