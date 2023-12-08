@@ -33,7 +33,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col" style="padding-right: 0;padding-left: 0;"><img class="img-fluid" src="assets/img/Travel%20Advert%20Banner.png"></div>
+            <div class="col" style="padding-right: 0;padding-left: 0;"><img class="img-fluid" src="assets/img/Travel%20Advert%20Banner.png" width="1320" height="385"></div>
         </div>
         <div class="row mt-3 mb-3">
             <div class="col-md-auto col-lg-4" id="left">
@@ -113,19 +113,40 @@
                 <div class="row">
                     <div class="col"><label class="form-label">From</label><input type="text" id="from" class="form-control" value="LAX"></div>
                     <div class="col"><label class="form-label">To</label><input type="text" id="to" class="form-control" value="ORD"></div>
-                    <div class="col"></div>
+                    <div class="col d-xxl-flex justify-content-xxl-center align-items-xxl-center"><button class="btn btn-primary text-center d-xxl-flex justify-content-xxl-start align-items-xxl-start" id="search" type="button">Search</button></div>
                 </div>
                 <div class="row mt-3">
                     <div class="col">
                         <div class="resultTabs">
                             <ul class="nav nav-tabs" role="tablist">
-                                <li class="nav-item" role="presentation"><a class="nav-link active text-start" role="tab" data-bs-toggle="tab" href="#tab-1">Sun, Dec 3<br>400 USD<span class="spinner-border spinner-border-sm" role="status"></span></a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">Tab 2</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3">Tab 3</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link active text-start" role="tab" data-bs-toggle="tab" href="#tab-1">Sun, Dec 3<br>400 USD</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">Mon, Dec 4<br>425 USD</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3">Tue, Dec 5<br>375 USD</a></li>
                             </ul>
                             <div class="tab-content">
                                 <div class="tab-pane active" role="tabpanel" id="tab-1">
-                                    <p>Content for tab 1.</p>
+                                    <div class="row">
+                                        <div class="col">
+                                            <h4>TLH</h4>
+                                            <p style="margin-bottom: 0;">5:50 AM</p>
+                                            <p>2h 38m</p>
+                                        </div>
+                                        <div class="col-1 col-xxl-1 d-xxl-flex justify-content-xxl-center align-items-xxl-center"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-arrow-right d-xxl-flex justify-content-xxl-start align-items-xxl-start" style="font-size: 42px;">
+                                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                            </svg></div>
+                                        <div class="col">
+                                            <h4>DFW</h4>
+                                            <p style="margin-bottom: 0;">7:28 AM</p>
+                                            <p>Nonstop</p>
+                                        </div>
+                                        <div class="col">
+                                            <p style="font-weight: bold;margin-bottom: 0;text-align: right;">Round Trip from</p>
+                                            <p style="margin-bottom: 10px;text-align: right;"><a class="text-end" href="#" style="text-decoration: underline;">$729&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-right">
+                                                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                                                    </svg></a></p>
+                                            <p><a href="#">Details</a></p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="tab-pane" role="tabpanel" id="tab-2">
                                     <p>Content for tab 2.</p>
